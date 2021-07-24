@@ -1,0 +1,27 @@
+.page-layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+
+  .com-1 {
+    background: red;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .com-2 {
+    background: blue;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .com-3 {
+    background: green;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+}

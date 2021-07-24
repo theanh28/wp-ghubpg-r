@@ -3,3 +3,6 @@
 
 # env, env.development, env.development.local, ...
 .env*
+
+# build folder
+/build

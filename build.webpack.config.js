@@ -8,18 +8,37 @@ module.exports = {
     path: path.resolve(__dirname, './build'),
     filename: 'bundle.js',
   },
-  devServer: {
-    open: true,
-    historyApiFallback: true,
-  },  
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(js|jsx)$/i,
         exclude: /node-modules/,
         use: ['babel-loader'],
-      }
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [
+          // Creates `style` nodes from JS strings
+          "style-loader",
+          // Translates CSS into CommonJS
+          "css-loader",
+          // Compiles Sass to CSS
+          "sass-loader",
+        ],
+      },
+      {
+        test: /\.css$/i,
+        use: [
+          // Creates `style` nodes from JS strings
+          "style-loader",
+          // Translates CSS into CommonJS
+          "css-loader",
+        ],
+      },
     ]
+  },
+  resolve: {
+    modules: ['node_modules', 'src'],
   },
   plugins: [
     new HtmlWebpackPlugin({
