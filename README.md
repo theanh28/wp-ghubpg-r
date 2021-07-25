@@ -9,4 +9,4 @@ Template for React project, compilied with webpack, hosted on Github pages
   
 # Future
   Eslint + Prettier  
-  Docker  
+  Docker (for fun, not needed for react project tho)
