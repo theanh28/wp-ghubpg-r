@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: "production",
+  mode: 'production',
   entry: path.resolve(__dirname, './src/index.js'),
   output: {
     path: path.resolve(__dirname, './build'),
@@ -19,23 +19,23 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         use: [
           // Creates `style` nodes from JS strings
-          "style-loader",
+          'style-loader',
           // Translates CSS into CommonJS
-          "css-loader",
+          'css-loader',
           // Compiles Sass to CSS
-          "sass-loader",
+          'sass-loader',
         ],
       },
       {
         test: /\.css$/i,
         use: [
           // Creates `style` nodes from JS strings
-          "style-loader",
+          'style-loader',
           // Translates CSS into CommonJS
-          "css-loader",
+          'css-loader',
         ],
       },
-    ]
+    ],
   },
   resolve: {
     modules: ['node_modules', 'src'],
@@ -45,4 +45,4 @@ module.exports = {
       template: './public/index.html',
     }),
   ],
-}
+};
