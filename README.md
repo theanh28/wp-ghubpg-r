@@ -9,5 +9,4 @@ Template for React project, compilied with webpack, hosted on Github pages
   Hosted on Netlify at https://wizardly-poincare-1f2b20.netlify.app/
   
 # Future
-  Eslint + Prettier  
   Docker (for fun, not needed for react project tho)
