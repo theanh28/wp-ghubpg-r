@@ -1,5 +1,5 @@
 # wp-ghubpg-r
-Template for React project, compilied with webpack, hosted on Github pages
+Template for React project, compilied with webpack
 
 # Currently
   Have js/jsx, css/scss/sass compiled and bundled with Webpack and their loaders  
