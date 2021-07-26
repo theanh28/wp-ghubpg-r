@@ -2,7 +2,6 @@
 Template for React project, compilied with webpack, hosted on Github pages
 
 # Currently
-  Html and JS code -> React project  
   Compile js/jsx, css, scss/sass and bundled with Webpack  
   Have Husky for pre-commit task + Eslint for linting (7/2021, if Husky is not working: https://stackoverflow.com/questions/50048717/lint-staged-not-running-on-precommit)  
   Hosted on Github Pages at https://theanh28.github.io/wp-ghubpg-r/  
