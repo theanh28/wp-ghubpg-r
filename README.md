@@ -16,11 +16,11 @@ Template for React project, compilied with webpack
 # Work with Docker
   install docker (on Windows, remember to install Docker Desktop)  
   create a repo on Dockerhub  
-  -> docker build . -t <repo name> (since image name should be identical to repo name)  
-  -> docker push <repo name>  
+  -> docker build . -t `<repo name>` (since image name should be identical to repo name)  
+  -> docker push `<repo name>`  
   run locally:  
-  -> docker pull <repo name> (ofc not needed if you already have the image)  
-  -> docker run -d -p 5000:5000 <repo name> (-d = detach mode, -p 5000:5000 = connect our machine port 5000 with the docker container port 5000)  
+  -> docker pull `<repo name>` (ofc not needed if you already have the image)  
+  -> docker run -d -p 5000:5000 `<repo name>` (-d = detach mode, -p 5000:5000 = connect our machine port 5000 with the docker container port 5000)  
   
 
 # Potential problem
