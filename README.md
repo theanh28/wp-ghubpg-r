@@ -14,7 +14,7 @@ Template for React project, compilied with webpack
   Lerna?
 
 # Work with Docker
-  install docker (on Windows, remember installing Docker Desktop)  
+  install docker (on Windows, remember to install Docker Desktop)  
   create a repo on Dockerhub  
   -> docker build . -t <repo name> (since image name should be identical to repo name)  
   -> docker push <repo name>  
