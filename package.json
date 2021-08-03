@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run dev",
     "dev": "webpack serve --config ./webpack.config.js",
+    "start": "serve -s build",
     "build": "NODE_ENV=production BABEL_ENV=node webpack -c ./build.webpack.config.js",
     "winBuild": "set \"NODE_ENV=production BABEL_ENV=node\" && webpack -c ./build.webpack.config.js",
     "predeploy": "npm run build",
