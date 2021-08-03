@@ -23,5 +23,5 @@ Template for React project, compilied with webpack
   -> `docker run -d -p 5000:5000 <repo name>` (-d = detach mode, -p 5000:5000 = connect our machine port 5000 with the docker container port 5000)  
   
 
-# Potential problem
+# Potential problems
   7/2021, if Husky is not working: https://stackoverflow.com/questions/50048717/lint-staged-not-running-on-precommit  
