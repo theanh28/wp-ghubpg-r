@@ -8,7 +8,7 @@ Template for React project, compilied with webpack
   
 # Demo
   Hosted on Github Pages at https://theanh28.github.io/wp-ghubpg-r/  
-  Hosted on Netlify at https://wizardly-poincare-1f2b20.netlify.app/
+  Hosted on Netlify at https://wp-react-nlf.netlify.app/
   
 # Future
   Lerna?
